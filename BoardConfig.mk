@@ -30,10 +30,6 @@ TARGET_KERNEL_CONFIG := cyanogenmod_lt01wifi_defconfig
 # assert
 TARGET_OTA_ASSERT_DEVICE := lt01wifi,lt01wifixx,lt01wifiue,SM-T310
 
-COMMON_GLOBAL_CFLAGS += -DNEEDS_VECTORIMPL_SYMBOLS
-
-TARGET_PROVIDES_CAMERA_HAL := true
-
 # inherit from the proprietary version
 -include vendor/samsung/lt01wifi/BoardConfigVendor.mk
 
