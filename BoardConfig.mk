@@ -18,8 +18,6 @@
 # by BoardConfigVendor.mk
 -include device/samsung/lt01-common/BoardCommonConfig.mk
 
-TARGET_SPECIFIC_HEADER_PATH := device/samsung/lt01wifi/include
-
 # Bluetooth
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/samsung/lt01wifi/bluetooth
 
