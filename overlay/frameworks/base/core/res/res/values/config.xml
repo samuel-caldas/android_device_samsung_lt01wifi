@@ -67,7 +67,4 @@
     <!-- The default iface on which to monitor data use -->
     <string name="config_datause_iface">rmnet0</string>
 
-    <!-- Enable multi-user -->
-    <integer name="config_multiuserMaximumUsers">5</integer>
-
 </resources>
