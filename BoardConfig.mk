@@ -25,6 +25,9 @@ BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/samsung/lt01wifi/bluetooth
 TARGET_KERNEL_SOURCE := kernel/samsung/smdk4x12
 TARGET_KERNEL_CONFIG := cyanogenmod_lt01wifi_defconfig
 
+# Properties
+TARGET_SYSTEM_PROP += device/samsung/lt01wifi/system.prop
+
 # assert
 TARGET_OTA_ASSERT_DEVICE := lt01wifi,lt01wifixx,lt01wifiue,SM-T310
 
