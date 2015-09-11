@@ -15,4 +15,4 @@ PRODUCT_MODEL := SM-T310
 PRODUCT_MANUFACTURER := samsung
 
 # Set build fingerprint / ID / Product Name ect.
-PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=lt01wifiue TARGET_DEVICE=lt01wifi BUILD_FINGERPRINT="samsung/lt01wifiue/lt01wifi:4.2.2/JDQ39/T310UEUAMH2:user/release-keys" PRIVATE_BUILD_DESC="lt01wifiue-user 4.2.2 JDQ39 T310UEUAMH2 release-keys"
+PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=lt01wifiue TARGET_DEVICE=lt01wifi BUILD_FINGERPRINT="samsung/lt01wifixx/lt01wifi:4.4.2/KOT49H/T310XXUBOD2:user/release-keys" PRIVATE_BUILD_DESC="lt01wifixx-user 4.4.2 KOT49H T310XXUBOD2 release-keys"
