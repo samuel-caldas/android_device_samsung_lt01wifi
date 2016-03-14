@@ -18,9 +18,6 @@
 # by BoardConfigVendor.mk
 -include device/samsung/lt01-common/BoardCommonConfig.mk
 
-# Bluetooth
-BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/samsung/lt01wifi/bluetooth
-
 # Kernel
 TARGET_KERNEL_SOURCE := kernel/samsung/smdk4x12
 TARGET_KERNEL_CONFIG := cyanogenmod_lt01wifi_defconfig
