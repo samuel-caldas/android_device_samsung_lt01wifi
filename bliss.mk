@@ -1,15 +1,15 @@
 # Release name
 PRODUCT_RELEASE_NAME := lt01wifi
 
-# Inherit some common CM stuff.
-$(call inherit-product, vendor/cm/config/common_full_tablet_wifionly.mk)
+# Inherit some common Bliss stuff.
+$(call inherit-product, vendor/bliss/config/common_full_tablet_wifionly.mk)
 
 # Inherit device configuration
 $(call inherit-product, device/samsung/lt01wifi/full_lt01wifi.mk)
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := lt01wifi
-PRODUCT_NAME := cm_lt01wifi
+PRODUCT_NAME := bliss_lt01wifi
 PRODUCT_BRAND := samsung
 PRODUCT_MODEL := SM-T310
 PRODUCT_MANUFACTURER := samsung
