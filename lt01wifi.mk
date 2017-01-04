@@ -43,6 +43,4 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 $(call inherit-product-if-exists, vendor/samsung/lt01wifi/lt01wifi-vendor.mk)
 
-$(call inherit-product-if-exists, vendor/samsung/lt013g/lt013g-vendor.mk)
-
 $(call inherit-product, device/samsung/lt01-common/common.mk)
