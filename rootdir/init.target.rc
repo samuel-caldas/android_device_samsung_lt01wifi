@@ -28,12 +28,6 @@ on post-fs-data
     rm /data/smd_started
     rm /data/sv_cno.info
 
-# AT Distributor for factory test
-service at_distributor /system/bin/at_distributor
-    class late_start
-    user root
-    group radio log
-
 # GPS
 service gpsd /system/bin/gpsd -c /system/etc/gps.xml
     class main
