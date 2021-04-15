@@ -27,7 +27,8 @@ PRODUCT_COPY_FILES += \
 # Audio
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/audio_policy.conf:system/etc/audio_policy.conf \
-    $(LOCAL_PATH)/configs/tiny_hw.xml:system/etc/sound/lt01wifi
+    $(LOCAL_PATH)/configs/tiny_hw.xml:system/etc/sound/lt01wifi \
+    frameworks/native/data/etc/android.software.midi.xml:system/etc/permissions/android.software.midi.xml
   
 # Gps
 PRODUCT_COPY_FILES += \
